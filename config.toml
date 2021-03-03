@@ -1,0 +1,32 @@
+baseURL = "https://danp.net/"
+languageCode = "en-us"
+title = "Dan Peterson"
+theme = "rocinante-danp"
+
+[markup]
+  [markup.highlight]
+    style = "xcode"
+    tabWidth = 2
+
+[author]
+  name = "Dan Peterson"
+
+[params]
+  about = """
+Hi, I'm Dan. Usually danp.
+"""
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "Twitter"
+      href = "https://twitter.com/danp128"
+      new_tab = true
+
+    [[params.links.link]]
+      name = "GitHub"
+      href = "https://github.com/danp"
+      new_tab = true
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "atom"
