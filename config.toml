@@ -18,13 +18,19 @@ Hi, I'm Dan. Usually danp.
 
   [[params.links]]
     [[params.links.link]]
-      name = "Twitter"
-      href = "https://twitter.com/danp128"
+      name = "Mastodon"
+      href = "https://mastodon.danp.net/@danp"
+      rel = "me"
       new_tab = true
 
     [[params.links.link]]
       name = "GitHub"
       href = "https://github.com/danp"
+      new_tab = true
+
+    [[params.links.link]]
+      name = "Twitter"
+      href = "https://twitter.com/danp128"
       new_tab = true
 
 [outputFormats]

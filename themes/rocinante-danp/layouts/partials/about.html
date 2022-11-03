@@ -4,6 +4,7 @@
   <p class="horizontal-links">
     {{- range $links.link -}}
       <a href="{{ .href }}"
+       {{ if .rel }} rel="{{ .rel }}" {{end}}
        {{ if .new_tab }} target="_blank" {{end}}
        {{ if .smart_email_link }} class="email-hook" id="about-email" title="Click to show email" {{end}}
       >
