@@ -117,7 +117,8 @@ Once I added it, notifications in the web UI happened instantly!
 Then, I added my lone user:
 
 ``` shell
-RAILS_ENV=production bin/tootctl accounts create danp --email danp@danp.net --confirmed --role Owner
+RAILS_ENV=production bin/tootctl accounts create danp \
+  --email danp@danp.net --confirmed --role Owner
 ```
 
 Everything seemed to be working!
