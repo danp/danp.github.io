@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Injecting errors to test idempotency
 date: "2016-02-24"
 aliases:

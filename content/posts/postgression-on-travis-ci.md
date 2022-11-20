@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Using postgression on Travis CI
 date: "2013-05-12"
 aliases:

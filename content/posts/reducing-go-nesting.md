@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Reducing nesting in Go functions with early returns
 date: "2015-11-02"
 aliases:

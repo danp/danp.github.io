@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Introduction to Ledger
 date: "2011-08-28"
 aliases:

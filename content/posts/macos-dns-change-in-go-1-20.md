@@ -1,5 +1,4 @@
 ---
-layout: default
 title: macOS DNS resolving change in Go 1.20
 date: "2022-11-08"
 ---

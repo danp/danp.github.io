@@ -1,5 +1,4 @@
 ---
-layout: default
 title: My Mastodon setup
 date: "2022-11-13"
 ---
