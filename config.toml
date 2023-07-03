@@ -18,8 +18,8 @@ Hi, I'm Dan. Usually danp.
 
   [[params.links]]
     [[params.links.link]]
-      name = "Mastodon"
-      href = "https://mastodon.danp.net/@danp"
+      name = "Fediverse"
+      href = "https://mstdn.ca/@danp"
       rel = "me"
       new_tab = true
 
