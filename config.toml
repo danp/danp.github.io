@@ -18,6 +18,11 @@ Hi, I'm Dan. Usually danp.
 
   [[params.links]]
     [[params.links.link]]
+      name = "Bluesky"
+      href = "https://bsky.app/profile/danp.net"
+      new_tab = true
+
+    [[params.links.link]]
       name = "Fediverse"
       href = "https://mstdn.ca/@danp"
       rel = "me"
