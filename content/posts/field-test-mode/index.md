@@ -1,7 +1,6 @@
 ---
 title: "Field Test Mode"
 date: 2024-11-18T17:37:08-04:00
-draft: true
 ---
 
 I've been having a lot of call trouble at home lately using [Eastlink](https://eastlink.ca/) and an iPhone 13 mini.
