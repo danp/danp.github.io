@@ -33,11 +33,6 @@ Hi, I'm Dan. Usually danp.
       href = "https://github.com/danp"
       new_tab = true
 
-    [[params.links.link]]
-      name = "Twitter"
-      href = "https://twitter.com/danp128"
-      new_tab = true
-
 [outputFormats]
   [outputFormats.RSS]
     baseName = "atom"
