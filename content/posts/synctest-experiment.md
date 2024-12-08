@@ -1,5 +1,5 @@
 ---
-title: "Coming in Go 1.24: Experimental testing/synctest to help time and concurrency testing"
+title: "Coming in Go 1.24: testing/synctest experiment for time and concurrency testing"
 date: 2024-12-08T09:01:58-04:00
 ---
 
