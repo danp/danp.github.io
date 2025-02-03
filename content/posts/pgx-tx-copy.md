@@ -3,11 +3,11 @@ title: "pgx, database/sql transactions, and COPY"
 date: 2025-02-02T14:01:32-04:00
 ---
 
-At [work](https://www.grax.com/), we've just about completed a slow migration from the [lib/pq](https://pkg.go.dev/github.com/lib/pq) Go PostgreSQL driver to [pgx](https://pkg.go.dev/github.com/jackc/pgx/v5).
+At [work](https://www.grax.com/), we've just about completed a migration from the [lib/pq](https://pkg.go.dev/github.com/lib/pq) Go PostgreSQL driver to [pgx](https://pkg.go.dev/github.com/jackc/pgx/v5).
 
 We use the pgx [database/sql compatibility layer](https://pkg.go.dev/github.com/jackc/pgx/v5/stdlib) so our code doesn't need to care which driver is used, for the most part.
 
-As we neared the end of the migration, one unsolved issue remained: using [`COPY`](https://www.postgresql.org/docs/current/sql-copy.html).
+As we neared the end of the migration, one unsolved issue remained: using [`COPY`](https://www.postgresql.org/docs/current/sql-copy.html) inside transactions.
 
 We use `COPY` in a few places to bulk load data. With lib/pq, that looks something [like this](https://pkg.go.dev/github.com/lib/pq#hdr-Bulk_imports):
 
