@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Go Test Trace</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 10px;
+      padding: 0;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      font-family: monospace;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    #chart {
+      position: relative;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+      width: 100%;
+      min-height: 100vh;
+      overflow: auto;
+      box-sizing: border-box;
+      padding-bottom: 40px; /* space for axis labels */
+    }
+    .bar {
+      position: absolute;
+      height: 20px;
+      line-height: 20px;
+      color: #fff;
+      font-size: 12px;
+      padding-left: 2px;
+      border-radius: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .axis {
+      position: absolute;
+      border-top: 1px solid #333;
+      height: 20px;
+      left: 0;
+    }
+    .tick {
+      position: absolute;
+      font-size: 10px;
+      color: #333;
+      top: 2px;
+      white-space: nowrap;
+    }
+    /* Custom tooltip styling */
+    #tooltip {
+      position: absolute;
+      pointer-events: none;
+      background-color: rgba(0,0,0,0.75);
+      color: #fff;
+      padding: 5px;
+      border-radius: 3px;
+      font-size: 12px;
+      display: none;
+      z-index: 1000;
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+  <h1>Go Test Trace</h1>
+  <p>
+    Below is sample <code>go test -json</code> data (one JSON object per line). Click in the text area to clear it and paste your own data.
+  </p>
+  <textarea id="jsonInput"></textarea>
+  <br>
+  <label for="filterSelect">Filter tests: </label>
+  <select id="filterSelect">
+    <option value="all">All tests</option>
+    <option value="top">Top-level tests only</option>
+    <option value="sub">Subtests only</option>
+  </select>
+  &nbsp;&nbsp;
+  <label>
+    <input type="checkbox" id="groupCheckbox" checked>
+    Group subtests with parent (only when showing all tests)
+  </label>
+  <br><br>
+  <button id="visualizeButton">Visualize</button>
+
+  <div id="chart"></div>
+  <!-- Custom tooltip element -->
+  <div id="tooltip"></div>
+
+  <script>
+    // Sample JSON data – ten or so tests related to bicycle testing.
+    const sampleData = `{"Time": "2025-02-07T12:00:00.000Z", "Action": "run", "Package": "bicycle", "Test": "TestBicycle"}
+{"Time": "2025-02-07T12:00:00.500Z", "Action": "run", "Package": "bicycle", "Test": "TestBicycle/Brake"}
+{"Time": "2025-02-07T12:00:02.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestBicycle/Brake"}
+{"Time": "2025-02-07T12:00:02.500Z", "Action": "run", "Package": "bicycle", "Test": "TestBicycle/Wheel"}
+{"Time": "2025-02-07T12:00:04.500Z", "Action": "pass", "Package": "bicycle", "Test": "TestBicycle/Wheel"}
+{"Time": "2025-02-07T12:00:05.000Z", "Action": "run", "Package": "bicycle", "Test": "TestBicycle/Gear"}
+{"Time": "2025-02-07T12:00:07.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestBicycle/Gear"}
+{"Time": "2025-02-07T12:00:07.500Z", "Action": "run", "Package": "bicycle", "Test": "TestBicycle/Frame"}
+{"Time": "2025-02-07T12:00:09.500Z", "Action": "pass", "Package": "bicycle", "Test": "TestBicycle/Frame"}
+{"Time": "2025-02-07T12:00:10.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestBicycle"}
+{"Time": "2025-02-07T12:00:03.000Z", "Action": "run", "Package": "bicycle", "Test": "TestHandlebar"}
+{"Time": "2025-02-07T12:00:03.500Z", "Action": "run", "Package": "bicycle", "Test": "TestHandlebar/Grip"}
+{"Time": "2025-02-07T12:00:04.500Z", "Action": "pass", "Package": "bicycle", "Test": "TestHandlebar/Grip"}
+{"Time": "2025-02-07T12:00:05.000Z", "Action": "run", "Package": "bicycle", "Test": "TestHandlebar/Bell"}
+{"Time": "2025-02-07T12:00:05.800Z", "Action": "pass", "Package": "bicycle", "Test": "TestHandlebar/Bell"}
+{"Time": "2025-02-07T12:00:06.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestHandlebar"}
+{"Time": "2025-02-07T12:00:11.000Z", "Action": "run", "Package": "bicycle", "Test": "TestChain"}
+{"Time": "2025-02-07T12:00:11.500Z", "Action": "run", "Package": "bicycle", "Test": "TestChain/Lubrication"}
+{"Time": "2025-02-07T12:00:12.500Z", "Action": "pass", "Package": "bicycle", "Test": "TestChain/Lubrication"}
+{"Time": "2025-02-07T12:00:13.000Z", "Action": "run", "Package": "bicycle", "Test": "TestChain/Tension"}
+{"Time": "2025-02-07T12:00:14.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestChain/Tension"}
+{"Time": "2025-02-07T12:00:15.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestChain"}
+{"Time": "2025-02-07T12:00:16.000Z", "Action": "run", "Package": "bicycle", "Test": "TestPedal"}
+{"Time": "2025-02-07T12:00:17.000Z", "Action": "pass", "Package": "bicycle", "Test": "TestPedal"}`;
+
+    // Insert sample data into the text area on load.
+    const jsonInput = document.getElementById("jsonInput");
+    jsonInput.value = sampleData;
+
+    // When the user first focuses the textarea, clear the sample data.
+    let sampleCleared = false;
+    jsonInput.addEventListener("focus", function() {
+      if (!sampleCleared) {
+        jsonInput.value = "";
+        sampleCleared = true;
+      }
+    });
+
+    // Helper: Format a timestamp (in ms) into a local time string.
+    function formatTime(ts) {
+      return new Date(ts).toLocaleTimeString();
+    }
+
+    // Show custom tooltip near the mouse pointer.
+    function showTooltip(text, event) {
+      const tooltip = document.getElementById("tooltip");
+      tooltip.innerHTML = text;
+      tooltip.style.display = "block";
+      tooltip.style.left = (event.pageX + 10) + "px";
+      tooltip.style.top = (event.pageY + 10) + "px";
+    }
+
+    function hideTooltip() {
+      const tooltip = document.getElementById("tooltip");
+      tooltip.style.display = "none";
+    }
+
+    // Attach custom tooltip behavior to an element.
+    function attachTooltip(elem, text) {
+      elem.addEventListener("mouseenter", function(e) {
+        showTooltip(text, e);
+      });
+      elem.addEventListener("mousemove", function(e) {
+        showTooltip(text, e);
+      });
+      elem.addEventListener("mouseleave", function() {
+        hideTooltip();
+      });
+    }
+
+    // Visualization function: parses the JSON and renders the timeline.
+    function visualizeData() {
+      const input = jsonInput.value;
+      const filterMode = document.getElementById('filterSelect').value; // "all", "top", "sub"
+      const groupEnabled = document.getElementById('groupCheckbox').checked;
+      const lines = input.split('\n').filter(line => line.trim() !== '');
+      const tests = {}; // key: package + "::" + test name
+
+      // Process each JSON line.
+      lines.forEach(line => {
+        try {
+          const event = JSON.parse(line);
+          if (event.Test) {  // Only process events with a non-empty "Test" field.
+            const isTopLevel = (event.Test.indexOf('/') === -1);
+            if (filterMode === "top" && !isTopLevel) return;
+            if (filterMode === "sub" && isTopLevel) return;
+
+            const key = event.Package + "::" + event.Test;
+            if (event.Action === "run") {
+              tests[key] = tests[key] || {};
+              tests[key].name = event.Test;
+              tests[key].package = event.Package;
+              tests[key].start = new Date(event.Time).getTime();
+            } else if (["pass", "fail", "skip"].includes(event.Action)) {
+              tests[key] = tests[key] || {};
+              tests[key].name = event.Test;
+              tests[key].package = event.Package;
+              tests[key].end = new Date(event.Time).getTime();
+              tests[key].status = event.Action;
+            }
+          }
+        } catch (e) {
+          console.error("Error parsing JSON line:", line, e);
+        }
+      });
+
+      // Build an array of tests that have both a start and end time.
+      const parsedTests = [];
+      for (const key in tests) {
+        const test = tests[key];
+        if (test.start && test.end) {
+          test.duration = test.end - test.start; // in ms
+          parsedTests.push(test);
+        }
+      }
+
+      if (parsedTests.length === 0) {
+        alert("No complete test events (with both start and end) were found.");
+        return;
+      }
+
+      // Compute overall timeline start and end.
+      const minTime = Math.min(...parsedTests.map(t => t.start));
+      const maxTime = Math.max(...parsedTests.map(t => t.end));
+      const totalDuration = maxTime - minTime;
+
+      const chart = document.getElementById('chart');
+      chart.innerHTML = "";  // Clear previous visualization
+
+      // Use 90% of the chart's width for the timeline to reduce horizontal scrolling.
+      const chartWidth = chart.clientWidth;
+      const scale = (chartWidth * 0.9) / totalDuration;
+      const barHeight = 25;
+
+      if (filterMode === "all" && groupEnabled) {
+        // Group tests by their top-level name (substring before the first "/").
+        const groups = {};
+        parsedTests.forEach(test => {
+          const parts = test.name.split("/");
+          const groupKey = parts[0];
+          test.isParent = (parts.length === 1);
+          if (!groups[groupKey]) {
+            groups[groupKey] = { tests: [] };
+          }
+          groups[groupKey].tests.push(test);
+        });
+
+        const groupsArr = Object.values(groups);
+        // For each group, determine a group end time (use parent's end if present, otherwise max of subtests).
+        groupsArr.forEach(group => {
+          const parentTest = group.tests.find(t => t.isParent);
+          if (parentTest) {
+            group.groupEnd = parentTest.end;
+          } else {
+            group.groupEnd = Math.max(...group.tests.map(t => t.end));
+          }
+          // Sort tests within the group: parent first (if exists), then subtests by end time.
+          group.tests.sort((a, b) => {
+            if (a.isParent && !b.isParent) return -1;
+            if (!a.isParent && b.isParent) return 1;
+            return a.end - b.end;
+          });
+        });
+        // Sort groups by their group end time.
+        groupsArr.sort((a, b) => a.groupEnd - b.groupEnd);
+
+        const groupMargin = 10;
+        let currentYOffset = 0;
+
+        groupsArr.forEach(group => {
+          group.tests.forEach((test, index) => {
+            const top = currentYOffset + index * barHeight;
+            const left = (test.start - minTime) * scale;
+            const width = test.duration * scale;
+
+            const bar = document.createElement("div");
+            bar.className = "bar";
+            bar.style.left = left + "px";
+            bar.style.top = top + "px";
+            bar.style.width = Math.max(width, 3) + "px";
+            bar.style.backgroundColor = test.isParent ? "steelblue" : "seagreen";
+
+            const tooltipText = `${test.package} :: ${test.name}
+Status: ${test.status}
+Start: ${formatTime(test.start)}
+End: ${formatTime(test.end)}
+Duration: ${(test.duration/1000).toFixed(2)}s`;
+
+            attachTooltip(bar, tooltipText);
+
+            // Show a short label on the bar.
+            bar.textContent = test.isParent
+              ? test.name
+              : test.name.substring(test.name.indexOf("/") + 1) + " (" + test.status + ")";
+
+            chart.appendChild(bar);
+          });
+          currentYOffset += group.tests.length * barHeight + groupMargin;
+        });
+
+        chart.style.height = (currentYOffset + 40) + "px";
+
+        // Add a time axis at the bottom.
+        const axis = document.createElement("div");
+        axis.className = "axis";
+        axis.style.left = "0px";
+        axis.style.top = currentYOffset + "px";
+        axis.style.width = chartWidth + "px";
+        const ticks = [
+          { time: minTime, label: "Start" },
+          { time: minTime + totalDuration / 2, label: "Mid" },
+          { time: maxTime, label: "End" }
+        ];
+        ticks.forEach(tick => {
+          const tickElem = document.createElement("div");
+          tickElem.className = "tick";
+          const pos = (tick.time - minTime) * scale;
+          tickElem.style.left = pos + "px";
+          tickElem.textContent = tick.label;
+          axis.appendChild(tickElem);
+        });
+        chart.appendChild(axis);
+      } else {
+        // Flat (ungrouped) view.
+        parsedTests.sort((a, b) => a.end - b.end);
+        parsedTests.forEach((test, index) => {
+          const left = (test.start - minTime) * scale;
+          const width = test.duration * scale;
+          const top = index * barHeight;
+
+          const bar = document.createElement("div");
+          bar.className = "bar";
+          bar.style.left = left + "px";
+          bar.style.top = top + "px";
+          bar.style.width = Math.max(width, 3) + "px";
+          bar.style.backgroundColor = "steelblue";
+
+          const tooltipText = `${test.package} :: ${test.name}
+Status: ${test.status}
+Start: ${formatTime(test.start)}
+End: ${formatTime(test.end)}
+Duration: ${(test.duration/1000).toFixed(2)}s`;
+
+          attachTooltip(bar, tooltipText);
+          bar.textContent = test.name + " (" + test.status + ")";
+          chart.appendChild(bar);
+        });
+        chart.style.height = (parsedTests.length * barHeight + 40) + "px";
+
+        const axis = document.createElement("div");
+        axis.className = "axis";
+        axis.style.left = "0px";
+        axis.style.top = (parsedTests.length * barHeight) + "px";
+        axis.style.width = chartWidth + "px";
+        const ticks = [
+          { time: minTime, label: "Start" },
+          { time: minTime + totalDuration / 2, label: "Mid" },
+          { time: maxTime, label: "End" }
+        ];
+        ticks.forEach(tick => {
+          const tickElem = document.createElement("div");
+          tickElem.className = "tick";
+          const pos = (tick.time - minTime) * scale;
+          tickElem.style.left = pos + "px";
+          tickElem.textContent = tick.label;
+          axis.appendChild(tickElem);
+        });
+        chart.appendChild(axis);
+      }
+    }
+
+    // When the Visualize button is clicked, re-run the visualization.
+    document.getElementById('visualizeButton').addEventListener('click', visualizeData);
+
+    // Automatically visualize the sample data on page load.
+    document.addEventListener('DOMContentLoaded', function() {
+      visualizeData();
+    });
+  </script>
+  <script data-goatcounter="https://s.danp.net/count" async src="//s.danp.net/count.js"></script>
+</body>
+</html>
