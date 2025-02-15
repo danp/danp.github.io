@@ -1,0 +1,5759 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6120137,
+          44.8180649
+        ]
+      },
+      "properties": {
+        "location": "Fall River Rd at Route #2 Sobeys",
+        "district": "1",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6288235,
+          44.6382452
+        ]
+      },
+      "properties": {
+        "location": "Baker at Basswood",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4733275,
+          44.61192
+        ]
+      },
+      "properties": {
+        "location": "Cow Bay Rd at Caldwell Rd",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6487579,
+          44.6732367
+        ]
+      },
+      "properties": {
+        "location": "Eastern Passage at Bonaventure Ave",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4941437,
+          44.6117419
+        ]
+      },
+      "properties": {
+        "location": "Eastern Passage at Cowbay at Shore Road",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5053571,
+          44.6206669
+        ]
+      },
+      "properties": {
+        "location": "Main Rd at Morris Ave / Autoport",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5295747,
+          44.654243
+        ]
+      },
+      "properties": {
+        "location": "Mount Hope at Baker",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5367566,
+          44.6442537
+        ]
+      },
+      "properties": {
+        "location": "Pleasant St at Imperial Oil",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5549868,
+          44.6684096
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Bus Depot",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5018955,
+          44.671077
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Caldwell at Dorothea",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.513972,
+          44.6747639
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Regal Rd",
+        "district": "3",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.490002,
+          44.671649
+        ]
+      },
+      "properties": {
+        "location": "Cole Harbour Rd. at Forest Hills Dr.",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4945175,
+          44.671455
+        ]
+      },
+      "properties": {
+        "location": "Cole Harbour Rd. at Hugh Allen Dr.",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4983386,
+          44.6712553
+        ]
+      },
+      "properties": {
+        "location": "Cole Harbour Rd. at Otago Dr",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6517379,
+          44.6761807
+        ]
+      },
+      "properties": {
+        "location": "Forest Hills Dr. at Canadian Tire",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6517379,
+          44.6761807
+        ]
+      },
+      "properties": {
+        "location": "Forest Hills Dr. at Circassion",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4911716,
+          44.6825569
+        ]
+      },
+      "properties": {
+        "location": "Forest Hills Dr. at Cole Harbour Place",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.494804,
+          44.6904766
+        ]
+      },
+      "properties": {
+        "location": "Forest Hills Dr. at Taranaki at Flying Cloud",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4915594,
+          44.6868818
+        ]
+      },
+      "properties": {
+        "location": "Forest Hills Parkway at Auburn Dr",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6517379,
+          44.6761807
+        ]
+      },
+      "properties": {
+        "location": "Main St at Forest Hills Dr",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4762031,
+          44.7259961
+        ]
+      },
+      "properties": {
+        "location": "Main St at Lake Major",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4930447,
+          44.6980428
+        ]
+      },
+      "properties": {
+        "location": "Main St at Montague",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.4961032,
+          44.6934809
+        ]
+      },
+      "properties": {
+        "location": "Main St at Panavista Dr",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.478524,
+          44.7014345
+        ]
+      },
+      "properties": {
+        "location": "Main St at Westphal Trailer Park",
+        "district": "4",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5651713,
+          44.6646535
+        ]
+      },
+      "properties": {
+        "location": "Alderney Dr at King St",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5698789,
+          44.6653891
+        ]
+      },
+      "properties": {
+        "location": "Alderney Dr at Ochterloney",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5681917,
+          44.6642496
+        ]
+      },
+      "properties": {
+        "location": "Alderney Dr at Portland",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5690049,
+          44.6648707
+        ]
+      },
+      "properties": {
+        "location": "Alderney Dr at Queen",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.559963,
+          44.6838168
+        ]
+      },
+      "properties": {
+        "location": "Micmac Blvd at Glen Manor",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5612339,
+          44.68541
+        ]
+      },
+      "properties": {
+        "location": "Micmac Blvd at Kent Store Driveway",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5612339,
+          44.68541
+        ]
+      },
+      "properties": {
+        "location": "Micmac Blvd at Mall Entrance ( Brookdale )",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5756011,
+          44.6713318
+        ]
+      },
+      "properties": {
+        "location": "Nantucket Ave at Sportsplex (Pedestrian half signal)",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5642381,
+          44.6702265
+        ]
+      },
+      "properties": {
+        "location": "Ochterloney St at Maple",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5495411,
+          44.6551019
+        ]
+      },
+      "properties": {
+        "location": "Pleasant St at Acadia",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5467546,
+          44.6506452
+        ]
+      },
+      "properties": {
+        "location": "Pleasant St at Atlantic",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5409233,
+          44.644467
+        ]
+      },
+      "properties": {
+        "location": "Pleasant St at Everette",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5443885,
+          44.6469202
+        ]
+      },
+      "properties": {
+        "location": "Pleasant St at Hwy111",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5638519,
+          44.6675938
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Prince Albert at Alderney",
+        "district": "5",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5432065,
+          44.6690928
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Chestnut at Manor",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5448589,
+          44.6671851
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Gaston",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5403157,
+          44.6718556
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Penhorn Mall",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5599384,
+          44.6683648
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Pleasant",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5467402,
+          44.6672606
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Prince Arthur St",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5407331,
+          44.670214
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Green Village Ln (Sears Entrance)",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5619026,
+          44.6732838
+        ]
+      },
+      "properties": {
+        "location": "Prince Albert Rd at Hawthorne",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.590559,
+          44.682811
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Highfield Park",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5841143,
+          44.6793799
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Albro Lake",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5776384,
+          44.6754839
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Boland",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.573844,
+          44.6731437
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Nantucket",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.573844,
+          44.6731437
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Primrose",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.573844,
+          44.6731437
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Thistle",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5802197,
+          44.6771103
+        ]
+      },
+      "properties": {
+        "location": "Victoria Rd at Woodland",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5746492,
+          44.6674704
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Wyse Rd",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.569049,
+          44.685746
+        ]
+      },
+      "properties": {
+        "location": "Woodland Ave at Micmac at Lancaster",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5295829,
+          44.6734292
+        ]
+      },
+      "properties": {
+        "location": "Woodlawn Ave at Valleyfield / Settle",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5876455,
+          44.6766117
+        ]
+      },
+      "properties": {
+        "location": "Wyse Rd at Albro Lake",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5813999,
+          44.6721264
+        ]
+      },
+      "properties": {
+        "location": "Wyse Rd at Boland Rd",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5776214,
+          44.6701555
+        ]
+      },
+      "properties": {
+        "location": "Wyse Rd at Nantucket",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5748714,
+          44.6683516
+        ]
+      },
+      "properties": {
+        "location": "Wyse Rd at Thistle",
+        "district": "5",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6000366,
+          44.711483
+        ]
+      },
+      "properties": {
+        "location": "Akerley at Joseph Zatzman",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5822088,
+          44.717499
+        ]
+      },
+      "properties": {
+        "location": "Akerley at n/a Savage",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6076839,
+          44.7075573
+        ]
+      },
+      "properties": {
+        "location": "Akerley Blvd at Mosher Dr",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6070129,
+          44.7083322
+        ]
+      },
+      "properties": {
+        "location": "Burnside at Akerley",
+        "district": "6",
+        "push_present": 0,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5838875,
+          44.6993566
+        ]
+      },
+      "properties": {
+        "location": "Burnside at Commodore at Ronald Smith",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5878962,
+          44.7075248
+        ]
+      },
+      "properties": {
+        "location": "Burnside Dr at Wright Ave",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5813139,
+          44.6999421
+        ]
+      },
+      "properties": {
+        "location": "Commodore at Brownlow",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.56451,
+          44.7004989
+        ]
+      },
+      "properties": {
+        "location": "Commodore at Countryview",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5795031,
+          44.7003296
+        ]
+      },
+      "properties": {
+        "location": "Commodore at Eileen Stubbs at Spectacle Lake",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5675543,
+          44.700433
+        ]
+      },
+      "properties": {
+        "location": "Commodore at Finlay",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5655524,
+          44.7033346
+        ]
+      },
+      "properties": {
+        "location": "Countryview at McClure",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5631636,
+          44.7069876
+        ]
+      },
+      "properties": {
+        "location": "Countryview at Shubie",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5577197,
+          44.7129855
+        ]
+      },
+      "properties": {
+        "location": "Cutler Ave at Ikea",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5688122,
+          44.7037628
+        ]
+      },
+      "properties": {
+        "location": "Finlay at McClure",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.56673,
+          44.7071658
+        ]
+      },
+      "properties": {
+        "location": "Finlay at Shubie",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.585646,
+          44.698896
+        ]
+      },
+      "properties": {
+        "location": "Ilsley at Ronald Smith",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5293794,
+          44.6845266
+        ]
+      },
+      "properties": {
+        "location": "Main St at Caledonia at Woodlawn",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5374258,
+          44.6822504
+        ]
+      },
+      "properties": {
+        "location": "Main St at Hartlen",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5923256,
+          44.6508608
+        ]
+      },
+      "properties": {
+        "location": "Main St at Major -Gordon",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5043246,
+          44.6918293
+        ]
+      },
+      "properties": {
+        "location": "Main St at Ridgecrest",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8532906,
+          49.6632836
+        ]
+      },
+      "properties": {
+        "location": "Main St at Weyburn (Pedestrian 1/2 Signal)",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5254274,
+          44.671816
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Carver at Eisener",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5956641,
+          44.6878601
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Hwy 111",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5244224,
+          44.6719646
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Spring at Portland Estates",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5320789,
+          44.6709294
+        ]
+      },
+      "properties": {
+        "location": "Portland St at Woodlawn",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5476516,
+          44.6984078
+        ]
+      },
+      "properties": {
+        "location": "Waverley at Montebello",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6117662,
+          44.7033539
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Akerley",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5905015,
+          44.6754942
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Albro Lake",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6014328,
+          44.6955425
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Princess Margaret -Yorkshire",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6069828,
+          44.7007441
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Ralston at SeaPoint",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6014328,
+          44.6955425
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Victoria at Lynch Crt",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6014328,
+          44.6955425
+        ]
+      },
+      "properties": {
+        "location": "Windmill Rd at Wright at Bancroft Dr",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5322302,
+          44.6720909
+        ]
+      },
+      "properties": {
+        "location": "Woodlawn Ave at Athorpe Dr",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5256275,
+          44.6790452
+        ]
+      },
+      "properties": {
+        "location": "Woodlawn Ave at Mt. Edward",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5923256,
+          44.6508608
+        ]
+      },
+      "properties": {
+        "location": "Wright at John Savage",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5923256,
+          44.6508608
+        ]
+      },
+      "properties": {
+        "location": "Wright at Williams at Garland",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5658398,
+          44.7095687
+        ]
+      },
+      "properties": {
+        "location": "Wright Ave at Finlay",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.595728,
+          44.704831
+        ]
+      },
+      "properties": {
+        "location": "Wright Ave at Ilsley at Isnor",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5924359,
+          44.706218
+        ]
+      },
+      "properties": {
+        "location": "Wright Ave at Joseph Zatzman at Raddall",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6005027,
+          44.7017738
+        ]
+      },
+      "properties": {
+        "location": "Wright Ave at MacDonald",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5695373,
+          44.7101318
+        ]
+      },
+      "properties": {
+        "location": "Wright Ave at Wilkinson",
+        "district": "6",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5773544,
+          44.6522737
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Cogswell St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5836797,
+          44.6527751
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Cornwallis St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5750609,
+          44.649218
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Duke St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5712979,
+          44.6417687
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Morris St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5740842,
+          44.6472619
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Prince St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5735777,
+          44.6462595
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Sackville St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5725266,
+          44.6441819
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Spring Garden Road",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5807619,
+          44.6444895
+        ]
+      },
+      "properties": {
+        "location": "Bell Road at Sackville St. at South Park St.",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.586052,
+          44.6468158
+        ]
+      },
+      "properties": {
+        "location": "Bell Road at Summer at Trollope",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5789654,
+          44.6509692
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at Cogswell Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5777552,
+          44.6485744
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at Duke St. at Rainnie Dr.",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5892749,
+          44.6584128
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at North Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.576735,
+          44.6465657
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at Prince Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5762108,
+          44.6455914
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at Sackville Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5967052,
+          44.6376675
+        ]
+      },
+      "properties": {
+        "location": "Coburg Rd at Oxford Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5867949,
+          44.6404327
+        ]
+      },
+      "properties": {
+        "location": "Coburg Rd at Robie St. at Spring Garden Rd.",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5811006,
+          44.6505334
+        ]
+      },
+      "properties": {
+        "location": "Cogswell St at Gottingen Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5836797,
+          44.6527751
+        ]
+      },
+      "properties": {
+        "location": "Cornwallis St at Gottingen St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5779042,
+          44.6428213
+        ]
+      },
+      "properties": {
+        "location": "Dresden Row at Spring Garden Rd",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5738072,
+          44.649522
+        ]
+      },
+      "properties": {
+        "location": "Duke St at Hollis Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5733263,
+          44.6496196
+        ]
+      },
+      "properties": {
+        "location": "Duke St at Upper Water",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5717324,
+          44.6454364
+        ]
+      },
+      "properties": {
+        "location": "George St at Hollis Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5712859,
+          44.6462052
+        ]
+      },
+      "properties": {
+        "location": "George St at Water Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5700367,
+          44.6420953
+        ]
+      },
+      "properties": {
+        "location": "Hollis St at Morris Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5728117,
+          44.6475679
+        ]
+      },
+      "properties": {
+        "location": "Hollis St at Prince Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5723264,
+          44.6465818
+        ]
+      },
+      "properties": {
+        "location": "Hollis St at Sackville Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5831642,
+          44.6326352
+        ]
+      },
+      "properties": {
+        "location": "Inglis St at Robie St",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5780285,
+          44.6338979
+        ]
+      },
+      "properties": {
+        "location": "Inglis St at Tower Rd",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5982902,
+          44.6408638
+        ]
+      },
+      "properties": {
+        "location": "Jubilee Rd at Oxford St",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5885633,
+          44.6435288
+        ]
+      },
+      "properties": {
+        "location": "Jubilee Rd at Robie St",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5786831,
+          44.6400889
+        ]
+      },
+      "properties": {
+        "location": "Morris St at South Park St. at University Ave.",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5838847,
+          44.636747
+        ]
+      },
+      "properties": {
+        "location": "Queen St at South St",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5797532,
+          44.6423071
+        ]
+      },
+      "properties": {
+        "location": "Queen St at Spring Garden Rd",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5933619,
+          44.6465249
+        ]
+      },
+      "properties": {
+        "location": "Quingate Place at Quinpool Road at Vernon Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5848216,
+          44.6365317
+        ]
+      },
+      "properties": {
+        "location": "Robie St at South Street",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5855483,
+          44.6380688
+        ]
+      },
+      "properties": {
+        "location": "Robie St at University Avenue",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5797532,
+          44.6423071
+        ]
+      },
+      "properties": {
+        "location": "South Park St at Spring Garden Road",
+        "district": "7",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5777416,
+          44.6381566
+        ]
+      },
+      "properties": {
+        "location": "South St at South Park Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.583283,
+          44.6413251
+        ]
+      },
+      "properties": {
+        "location": "Spring Garden Road at Summer Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5905831,
+          44.6473001
+        ]
+      },
+      "properties": {
+        "location": "Robie Street at Quinpool Road / Bell Road / Cogswell Street",
+        "district": "7",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5975281,
+          44.6582316
+        ]
+      },
+      "properties": {
+        "location": "Agricola Street at Almon Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5937188,
+          44.6554481
+        ]
+      },
+      "properties": {
+        "location": "Agricola Street at North Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6011066,
+          44.660591
+        ]
+      },
+      "properties": {
+        "location": "Agricola Street at Young Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5950411,
+          44.6600414
+        ]
+      },
+      "properties": {
+        "location": "Almon St at Gottingen St",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6027166,
+          44.654245
+        ]
+      },
+      "properties": {
+        "location": "Almon St at Gladstone (Pedestrian 1/2 signal)",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6062298,
+          44.651723
+        ]
+      },
+      "properties": {
+        "location": "Almon St at Oxford St",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5987811,
+          44.6573457
+        ]
+      },
+      "properties": {
+        "location": "Almon Street at Robie Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6027166,
+          44.654245
+        ]
+      },
+      "properties": {
+        "location": "Almon Street at Windsor Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.592984,
+          44.663547
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at Niobe Gate",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5883149,
+          44.6591015
+        ]
+      },
+      "properties": {
+        "location": "Barrington St at North St",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6149068,
+          44.6523109
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Connaught Avenue",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.610366,
+          44.6548448
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Oxford Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6072456,
+          44.6567636
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Windsor St at Young St",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5836797,
+          44.6527751
+        ]
+      },
+      "properties": {
+        "location": "Brunswick St at Cornwallis Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6023701,
+          44.6487676
+        ]
+      },
+      "properties": {
+        "location": "Chebucto Rd at Oxford St / North St at Oxford St",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5923256,
+          44.6508608
+        ]
+      },
+      "properties": {
+        "location": "Cunard Street at Robie Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6061974,
+          44.6674214
+        ]
+      },
+      "properties": {
+        "location": "Devonshire Ave at Duffus St. at Novalea Dr.",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5911717,
+          44.6573482
+        ]
+      },
+      "properties": {
+        "location": "Gottingen St at North Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6071891,
+          44.668177
+        ]
+      },
+      "properties": {
+        "location": "Gottingen St at Novalea Dr. at Young St.",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6029491,
+          44.6591904
+        ]
+      },
+      "properties": {
+        "location": "Kempt Rd at Young St",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6128845,
+          44.6621958
+        ]
+      },
+      "properties": {
+        "location": "Kempt Road at Windsor Street",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6106691,
+          44.6653017
+        ]
+      },
+      "properties": {
+        "location": "Lady Hammond Rd at Robie Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6026578,
+          44.6491518
+        ]
+      },
+      "properties": {
+        "location": "North St at Oxford St (see Chebucto St at Oxford St )",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5948451,
+          44.6546616
+        ]
+      },
+      "properties": {
+        "location": "North St at Robie Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5983618,
+          44.6522129
+        ]
+      },
+      "properties": {
+        "location": "North St at Windsor Street",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6003073,
+          44.6445364
+        ]
+      },
+      "properties": {
+        "location": "Oxford Street at Quinpool Road",
+        "district": "8",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5979009,
+          44.6452502
+        ]
+      },
+      "properties": {
+        "location": "Preston St at Quinpool Road",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6047605,
+          44.6431864
+        ]
+      },
+      "properties": {
+        "location": "Quinpool Rd at Harvard St (Pedestrian 1/2 signal)",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6023384,
+          44.6596698
+        ]
+      },
+      "properties": {
+        "location": "Robie St at Young St",
+        "district": "8",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.610057,
+          44.6490024
+        ]
+      },
+      "properties": {
+        "location": "Almon Street at Connaught Avenue",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.618682,
+          44.649249
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Halifax Shopping Centre",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6301598,
+          44.6536386
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Joseph Howe Drive",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6190531,
+          44.6521141
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Pennington at Petro Canada",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6218705,
+          44.6528218
+        ]
+      },
+      "properties": {
+        "location": "Bayers Road at Romans Avenue",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6077059,
+          44.6473878
+        ]
+      },
+      "properties": {
+        "location": "Chebucto Rd at Connaught Avenue",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.595388,
+          44.6502145
+        ]
+      },
+      "properties": {
+        "location": "Chebucto Rd at Cunard St. at Windsor St.",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6149942,
+          44.6454603
+        ]
+      },
+      "properties": {
+        "location": "Chebucto Rd at MacDonald St. at Mumford Rd.",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6045807,
+          44.6432414
+        ]
+      },
+      "properties": {
+        "location": "Connaught Ave at Quinpool Rd",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6195643,
+          44.660394
+        ]
+      },
+      "properties": {
+        "location": "Connaught Ave at Windsor St",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6184953,
+          44.6324252
+        ]
+      },
+      "properties": {
+        "location": "Cowie Hill at Herring Cove Rd",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6286229,
+          44.6599691
+        ]
+      },
+      "properties": {
+        "location": "Dutch Village Road at Joseph Howe Drive",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6172618,
+          44.6207229
+        ]
+      },
+      "properties": {
+        "location": "Herring Cove Rd at Old Sambro Road",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6147308,
+          44.6158768
+        ]
+      },
+      "properties": {
+        "location": "Herring Cove Rd at Williams Lake Rd",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6302851,
+          44.6529412
+        ]
+      },
+      "properties": {
+        "location": "Joseph Howe Dr at Hwy #102",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6296216,
+          44.6485326
+        ]
+      },
+      "properties": {
+        "location": "Joseph Howe Dr at Mumford Road",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6297038,
+          44.6562544
+        ]
+      },
+      "properties": {
+        "location": "Joseph Howe Dr at Scot St",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6294462,
+          44.6474563
+        ]
+      },
+      "properties": {
+        "location": "Joseph Howe Dr at Springvale",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6302851,
+          44.6529412
+        ]
+      },
+      "properties": {
+        "location": "Joseph Howe Dr at Superstore",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6215634,
+          44.6485769
+        ]
+      },
+      "properties": {
+        "location": "Mumford Rd at Hfx. Shopping Centre at West End Mall",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6216918,
+          44.6487195
+        ]
+      },
+      "properties": {
+        "location": "Mumford Rd at Romans Avenue",
+        "district": "9",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6047605,
+          44.6431864
+        ]
+      },
+      "properties": {
+        "location": "Quinpool Rd at Beech St (Pedestrian 1/2 signal)",
+        "district": "9",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6308071,
+          44.6595433
+        ]
+      },
+      "properties": {
+        "location": "Alma Cres. at Dutch Village Road",
+        "district": "10",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 1,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6367641,
+          44.6663105
+        ]
+      },
+      "properties": {
+        "location": "Bayview Road at Bedford Highway",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6456745,
+          44.663925
+        ]
+      },
+      "properties": {
+        "location": "Bayview Road at Clayton Park Dr. at Lacewood Dr.",
+        "district": "10",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.636058,
+          44.6647423
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Civic #50 Bedford Hwy",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6477122,
+          44.6753607
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Flamingo Dr",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6604003,
+          44.6821886
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Kearney Lake Road",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6669331,
+          44.6810807
+        ]
+      },
+      "properties": {
+        "location": "Donaldson Ave at Dunbrack St. at Kearney Lake Rd.",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.65851,
+          44.666028
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack at Radcliffe - Meadowlark",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6640797,
+          44.6732761
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack St at Farnham Gate Rd",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.662713,
+          44.670081
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack St at Knightsridge at Langbrae",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6546529,
+          44.6628971
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack St at Lacewood Drive",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6498839,
+          44.652716
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack St at Main Ave",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.650737,
+          44.6570531
+        ]
+      },
+      "properties": {
+        "location": "Dunbrack St at Willett St",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6749313,
+          44.6840532
+        ]
+      },
+      "properties": {
+        "location": "Kearney Lake Rd at Parkland Dr",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6732963,
+          44.683923
+        ]
+      },
+      "properties": {
+        "location": "Kearney Lake Rd at Castlehill Dr",
+        "district": "10",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6343269,
+          44.659447
+        ]
+      },
+      "properties": {
+        "location": "Main Ave at Titus Street",
+        "district": "10",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.646763,
+          44.6540649
+        ]
+      },
+      "properties": {
+        "location": "Main Ave at Willett St",
+        "district": "10",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6174997,
+          44.6129563
+        ]
+      },
+      "properties": {
+        "location": "Dentith Rd at Herring Cove Road",
+        "district": "11",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6213871,
+          44.6154869
+        ]
+      },
+      "properties": {
+        "location": "Dentith Rd at Old Sambro Road",
+        "district": "11",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.633843,
+          44.6023694
+        ]
+      },
+      "properties": {
+        "location": "Northwest Arm Dr at Old Sambro Rd",
+        "district": "11",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6678408,
+          44.6362954
+        ]
+      },
+      "properties": {
+        "location": "St. Margarets Bay Rd. at Northwest Arm Dr. Connecto",
+        "district": "11",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5923256,
+          44.6508608
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr.- Hobson Lake at Horseshoe Lake",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.669516,
+          44.645894
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr.- Kent at Costco Driveway",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.669516,
+          44.645894
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr.- Superstore Driveway",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6732236,
+          44.6464716
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr.- Susie Lake",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.675316,
+          44.649045
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr. at Civic #201 (Dairy Queen)",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6691009,
+          44.6375979
+        ]
+      },
+      "properties": {
+        "location": "Chain Lake Dr. at Lakelands Blvd.",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6787923,
+          44.6456422
+        ]
+      },
+      "properties": {
+        "location": "Hobson Lake Dr at Susie Lake Dr",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6756506,
+          44.6457276
+        ]
+      },
+      "properties": {
+        "location": "Horseshoe Lake at Susie Lake",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6576226,
+          44.6620708
+        ]
+      },
+      "properties": {
+        "location": "Lacewood at Radcliffe at Bus Depot",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.671235,
+          44.6586853
+        ]
+      },
+      "properties": {
+        "location": "Lacewood Dr at Fairfax",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.669471,
+          44.65891
+        ]
+      },
+      "properties": {
+        "location": "Lacewood Dr at Parkland",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.657239,
+          44.663103
+        ]
+      },
+      "properties": {
+        "location": "Lacewood Dr at Sobeys at McDonald's",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.666282,
+          44.6597271
+        ]
+      },
+      "properties": {
+        "location": "Lacewood Dr at Stratford Way",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6576226,
+          44.6620708
+        ]
+      },
+      "properties": {
+        "location": "Lacewood Dr at Willett St",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6979247,
+          44.6376897
+        ]
+      },
+      "properties": {
+        "location": "Trunk #3 at Lakeside Industrial Park",
+        "district": "12",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.783249,
+          44.7338227
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Glen Arbour Way",
+        "district": "13",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7363541,
+          44.7243681
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Kingswood",
+        "district": "13",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7593712,
+          44.7322573
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Lucasville",
+        "district": "13",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7927176,
+          44.7356758
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Pockwock Rd",
+        "district": "13",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.8555454,
+          44.7044346
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Westwood at Flatlake",
+        "district": "13",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7083908,
+          44.7814733
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Millwood",
+        "district": "14",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6923827,
+          44.7902783
+        ]
+      },
+      "properties": {
+        "location": "Beaverbank Rd. at Stokil & Millwood",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6610391,
+          44.7582664
+        ]
+      },
+      "properties": {
+        "location": "Cobequid Rd at Zinck Ave ( Medical Center )",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6916485,
+          44.7824519
+        ]
+      },
+      "properties": {
+        "location": "Glendale Dr at Beaverbank Rd.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.659832,
+          44.7597847
+        ]
+      },
+      "properties": {
+        "location": "Glendale Dr. at Cobequid Rd.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5754632,
+          44.6695627
+        ]
+      },
+      "properties": {
+        "location": "Glendale Dr. at McDougall at Sportsplex",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6774972,
+          44.7763379
+        ]
+      },
+      "properties": {
+        "location": "Glendale Dr. at Metropolitan Ave.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6817953,
+          44.7787946
+        ]
+      },
+      "properties": {
+        "location": "Glendale Dr. at Riverside Dr.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6745537,
+          44.7779402
+        ]
+      },
+      "properties": {
+        "location": "Metropolitan Ave. at First Lake Dr.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6960586,
+          44.7764162
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Beaverbank Rd.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.694085,
+          44.7726731
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Downsview Mall",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7322198,
+          44.7968695
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Florence at Leaside",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6768764,
+          44.7643833
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Pinehill Dr.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6894488,
+          44.7700231
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Riverside Dr.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.684681,
+          44.7677767
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Sackville Cross Road",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6722504,
+          44.760707
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Skyridge Ave.",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7331165,
+          44.7975455
+        ]
+      },
+      "properties": {
+        "location": "Sackville Dr at Superstore at Wallmart",
+        "district": "15",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6569181,
+          44.7354407
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Bedford Place Mall North ( River Ln)",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6569181,
+          44.7354407
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Bedford Place Mall South",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.652294,
+          44.6797477
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Convoy at Holland",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6568381,
+          44.732175
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Dartmouth Road",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6781186,
+          44.7152038
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Hammonds Plains Road",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6631638,
+          44.7292875
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Hatchery Ln",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6610712,
+          44.6992671
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Larry Uteck Blvd ( Royal Hemlocks)",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6687525,
+          44.7249822
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Meadowbrook",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6775204,
+          44.7138897
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Moirs Mill Road",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6557413,
+          44.7337098
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Rocky Lake Drive",
+        "district": "16",
+        "push_present": 0,
+        "existing_all": 1,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6720179,
+          44.7113573
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Southgate Rd",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6542232,
+          44.7335324
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Sunnyside Mall",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6622978,
+          44.7304753
+        ]
+      },
+      "properties": {
+        "location": "Bedford Hwy at Union Street",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6418402,
+          44.7503102
+        ]
+      },
+      "properties": {
+        "location": "Damascus Rd at Verdi",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6429606,
+          44.7509087
+        ]
+      },
+      "properties": {
+        "location": "Damascus Rd at Walmart",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.649893,
+          44.72834
+        ]
+      },
+      "properties": {
+        "location": "Dartmouth Rd at Ridgevale",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 1,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5754655,
+          44.6491152
+        ]
+      },
+      "properties": {
+        "location": "Duke St at Damascus Rd",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6830395,
+          44.7170576
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Basinview",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 1,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7028803,
+          44.7268409
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Gary Martin Dr",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6951558,
+          44.7262178
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Innovation Dr",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.731115,
+          44.7239048
+        ]
+      },
+      "properties": {
+        "location": "Hammonds Plains at Larry Uteck",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7006452,
+          44.7003031
+        ]
+      },
+      "properties": {
+        "location": "Kearney Lake Rd at Larry Uteck Blvd",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7057026,
+          44.7092932
+        ]
+      },
+      "properties": {
+        "location": "Larry Uteck at Broad Street",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 0,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6778992,
+          44.7013012
+        ]
+      },
+      "properties": {
+        "location": "Larry Uteck at Southgate",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6853873,
+          44.6991176
+        ]
+      },
+      "properties": {
+        "location": "Starboard at Peakview",
+        "district": "16",
+        "push_present": 1,
+        "existing_all": 0,
+        "existing_side": 0,
+        "new_all": 1,
+        "new_side": 0,
+        "gordon_core": 0,
+        "gordon_suburb": 0
+      }
+    }
+  ]
+}

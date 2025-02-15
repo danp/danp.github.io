@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halifax Pedestrian Auto Signal Locations</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Ensure the map is fully responsive */
+    #map {
+      width: 100%;
+      height: 75vh;
+    }
+
+    * {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+  <h1>Halifax Pedestrian Auto Signal Locations</h1>
+  <p>
+    <a href="https://cdn.halifax.ca/sites/default/files/documents/city-hall/standing-committees/210225tsc81.pdf">This report</a>
+    contains a list of Halifax intersections that should have automatic
+    walk signals between 6 a.m. and midnight.
+  </p>
+  <p>
+    Don't think an intersection is working as it should?
+    <a href="mailto:contactus@311.halifax.ca">Email</a> or call 311 and reference the above report.
+  </p>
+  <div id="map"></div>
+  <script>
+    var map = L.map('map');
+
+    // Add an OpenStreetMap basemap.
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    fetch('data.geojson')
+      .then(response => response.json())
+      .then(data => {
+        const filteredFeatures = data.features.filter(feature =>
+          feature.properties.existing_all === 1 ||
+          feature.properties.existing_side === 1 ||
+          feature.properties.new_all === 1 ||
+          feature.properties.new_side === 1
+        );
+        filteredFeatures.forEach(feature => {
+          const popupContent = `
+            <p>${feature.properties.location}</p>
+            <p>
+            ${(feature.properties.existing_all === 1 || feature.properties.new_all === 1) ? "All crossings" : "Side street crossings"}
+            </p>
+          `;
+          L.geoJSON(feature, {
+            onEachFeature: (feature, layer) => {
+              layer.bindPopup(popupContent);
+            }
+          }).addTo(map);
+        });
+        map.fitBounds(L.geoJSON(filteredFeatures).getBounds());
+      })
+      .catch(error => console.error("Error loading data:", error));
+  </script>
+</body>
+
+</html>
