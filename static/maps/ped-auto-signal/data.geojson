@@ -27,8 +27,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6288235,
-          44.6382452
+          -63.528915676580446,
+          44.656265384372766
         ]
       },
       "properties": {
@@ -40,7 +40,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -69,8 +70,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6487579,
-          44.6732367
+          -63.51511779147735,
+          44.626684105316606
         ]
       },
       "properties": {
@@ -82,7 +83,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -111,8 +113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5053571,
-          44.6206669
+          -63.507191562950766,
+          44.62114413957892
         ]
       },
       "properties": {
@@ -124,7 +126,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -153,8 +156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5367566,
-          44.6442537
+          -63.53439262066664,
+          44.64129986075226
         ]
       },
       "properties": {
@@ -166,7 +169,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -174,8 +178,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5549868,
-          44.6684096
+          -63.506041753220664,
+          44.670890140558306
         ]
       },
       "properties": {
@@ -187,7 +191,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -216,8 +221,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.513972,
-          44.6747639
+          -63.50816787119191,
+          44.67074827222546
         ]
       },
       "properties": {
@@ -229,7 +234,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -300,8 +306,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6517379,
-          44.6761807
+          -63.49049036079327,
+          44.672632112314005
         ]
       },
       "properties": {
@@ -313,7 +319,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -321,8 +328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6517379,
-          44.6761807
+          -63.49188542892658,
+          44.676772721140196
         ]
       },
       "properties": {
@@ -334,7 +341,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -342,8 +350,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.4911716,
-          44.6825569
+          -63.49103287454659,
+          44.68310215240543
         ]
       },
       "properties": {
@@ -355,7 +363,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -405,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6517379,
-          44.6761807
+          -63.49904126689316,
+          44.693888961075665
         ]
       },
       "properties": {
@@ -418,7 +427,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -426,8 +436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.4762031,
-          44.7259961
+          -63.4667208145866,
+          44.703776812134215
         ]
       },
       "properties": {
@@ -439,7 +449,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -468,8 +479,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.4961032,
-          44.6934809
+          -63.497383479558785,
+          44.694797741491776
         ]
       },
       "properties": {
@@ -481,7 +492,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -622,6 +634,7 @@
       "properties": {
         "location": "Micmac Blvd at Kent Store Driveway",
         "district": "5",
+        "disabled": true,
         "push_present": 1,
         "existing_all": 0,
         "existing_side": 0,
@@ -636,8 +649,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5612339,
-          44.68541
+          -63.55619937596461,
+          44.68494125296757
         ]
       },
       "properties": {
@@ -649,7 +662,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -657,8 +671,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5756011,
-          44.6713318
+          -63.57664808076621,
+          44.67066148201534
         ]
       },
       "properties": {
@@ -670,7 +684,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -720,8 +735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5467546,
-          44.6506452
+          -63.546007293233444,
+          44.64950416124687
         ]
       },
       "properties": {
@@ -733,7 +748,8 @@
         "new_all": 1,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -846,8 +862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5403157,
-          44.6718556
+          -63.53772833298455,
+          44.67029119155438
         ]
       },
       "properties": {
@@ -859,7 +875,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1014,8 +1031,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.573844,
-          44.6731437
+          -63.5742611523471,
+          44.67340222548528
         ]
       },
       "properties": {
@@ -1027,7 +1044,8 @@
         "new_all": 1,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1035,8 +1053,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.573844,
-          44.6731437
+          -63.5871643122189,
+          44.68105344721147
         ]
       },
       "properties": {
@@ -1048,7 +1066,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1056,8 +1075,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.573844,
-          44.6731437
+          -63.57139093789679,
+          44.671505058275365
         ]
       },
       "properties": {
@@ -1069,7 +1088,8 @@
         "new_all": 1,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1119,8 +1139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.569049,
-          44.685746
+          -63.56918627296848,
+          44.6857576852495
         ]
       },
       "properties": {
@@ -1132,7 +1152,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1203,8 +1224,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5776214,
-          44.6701555
+          -63.57758150006357,
+          44.67006014627552
         ]
       },
       "properties": {
@@ -1216,7 +1237,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1308,8 +1330,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6070129,
-          44.7083322
+          -63.5910095226522,
+          44.714645541667764
         ]
       },
       "properties": {
@@ -1321,7 +1343,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1497,8 +1520,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5577197,
-          44.7129855
+          -63.559956348298165,
+          44.71281477046993
         ]
       },
       "properties": {
@@ -1510,7 +1533,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1623,8 +1647,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5923256,
-          44.6508608
+          -63.54095476122243,
+          44.6817662351048
         ]
       },
       "properties": {
@@ -1636,7 +1660,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1665,8 +1690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.8532906,
-          49.6632836
+          -63.53242963439454,
+          44.68388261517365
         ]
       },
       "properties": {
@@ -1678,7 +1703,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1707,8 +1733,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5956641,
-          44.6878601
+          -63.53583485182279,
+          44.67063954600758
         ]
       },
       "properties": {
@@ -1720,7 +1746,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1728,8 +1755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5244224,
-          44.6719646
+          -63.51823688367851,
+          44.671779730541154
         ]
       },
       "properties": {
@@ -1741,7 +1768,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1833,8 +1861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6014328,
-          44.6955425
+          -63.598867782730494,
+          44.6863598115832
         ]
       },
       "properties": {
@@ -1846,7 +1874,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1875,8 +1904,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6014328,
-          44.6955425
+          -63.6002890842237,
+          44.69467690526404
         ]
       },
       "properties": {
@@ -1888,7 +1917,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1896,8 +1926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6014328,
-          44.6955425
+          -63.60490289557649,
+          44.6984079352003
         ]
       },
       "properties": {
@@ -1909,7 +1939,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -1959,8 +1990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5923256,
-          44.6508608
+          -63.57741509501807,
+          44.70911874250931
         ]
       },
       "properties": {
@@ -1972,7 +2003,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -1980,8 +2012,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5923256,
-          44.6508608
+          -63.58331783456353,
+          44.7083171746163
         ]
       },
       "properties": {
@@ -1993,7 +2025,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -2106,8 +2139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5773544,
-          44.6522737
+          -63.576659440573245,
+          44.65167085321263
         ]
       },
       "properties": {
@@ -2119,7 +2152,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2132,8 +2166,9 @@
         ]
       },
       "properties": {
-        "location": "Barrington St at Cornwallis St",
+        "location": "Barrington St at Nora Bernard St",
         "district": "7",
+        "disabled": true,
         "push_present": 0,
         "existing_all": 1,
         "existing_side": 0,
@@ -2337,8 +2372,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5892749,
-          44.6584128
+          -63.58952283716036,
+          44.6583073343756
         ]
       },
       "properties": {
@@ -2350,7 +2385,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2463,12 +2499,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5836797,
-          44.6527751
+          -63.58392238209721,
+          44.65237970932121
         ]
       },
       "properties": {
-        "location": "Cornwallis St at Gottingen St",
+        "location": "Nora Bernard St at Gottingen St",
         "district": "7",
         "push_present": 0,
         "existing_all": 1,
@@ -2476,7 +2512,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2547,8 +2584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5717324,
-          44.6454364
+          -63.57328496554807,
+          44.64851667240397
         ]
       },
       "properties": {
@@ -2560,7 +2597,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2568,8 +2606,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5712859,
-          44.6462052
+          -63.57230840650255,
+          44.648884716708544
         ]
       },
       "properties": {
@@ -2581,7 +2619,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2736,8 +2775,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5786831,
-          44.6400889
+          -63.57856314896234,
+          44.639890695820604
         ]
       },
       "properties": {
@@ -2749,7 +2788,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -2757,8 +2797,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5838847,
-          44.636747
+          -63.5738493514607,
+          44.63914900376393
         ]
       },
       "properties": {
@@ -2770,7 +2810,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3030,8 +3071,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6027166,
-          44.654245
+          -63.60109865197821,
+          44.65546236938559
         ]
       },
       "properties": {
@@ -3043,7 +3084,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3219,12 +3261,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5836797,
-          44.6527751
+          -63.5832140677136,
+          44.65286722175108
         ]
       },
       "properties": {
-        "location": "Brunswick St at Cornwallis Street",
+        "location": "Brunswick St at Nora Bernard Street",
         "district": "8",
         "push_present": 0,
         "existing_all": 1,
@@ -3232,7 +3274,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3324,8 +3367,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6071891,
-          44.668177
+          -63.59865891627335,
+          44.662506675933194
         ]
       },
       "properties": {
@@ -3337,7 +3380,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3366,8 +3410,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6128845,
-          44.6621958
+          -63.62128577279848,
+          44.66344861833216
         ]
       },
       "properties": {
@@ -3379,7 +3423,8 @@
         "new_all": 1,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3513,8 +3558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6047605,
-          44.6431864
+          -63.599431215586556,
+          44.64477694270595
         ]
       },
       "properties": {
@@ -3526,7 +3571,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3576,8 +3622,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.618682,
-          44.649249
+          -63.61660741682636,
+          44.65162863640789
         ]
       },
       "properties": {
@@ -3589,7 +3635,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3618,8 +3665,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6190531,
-          44.6521141
+          -63.62538471618242,
+          44.65370414033364
         ]
       },
       "properties": {
@@ -3631,7 +3678,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3849,8 +3897,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6302851,
-          44.6529412
+          -63.63048006057589,
+          44.65181443782129
         ]
       },
       "properties": {
@@ -3862,7 +3910,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3933,8 +3982,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6302851,
-          44.6529412
+          -63.62922993205113,
+          44.65794960481217
         ]
       },
       "properties": {
@@ -3946,7 +3995,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3954,8 +4004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6215634,
-          44.6485769
+          -63.619643368545844,
+          44.64762863365975
         ]
       },
       "properties": {
@@ -3967,7 +4017,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -3996,8 +4047,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6047605,
-          44.6431864
+          -63.60216089386962,
+          44.64397949371283
         ]
       },
       "properties": {
@@ -4009,7 +4060,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 1,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4080,8 +4132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.636058,
-          44.6647423
+          -63.634304204219184,
+          44.664325684102245
         ]
       },
       "properties": {
@@ -4093,7 +4145,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -4416,8 +4469,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.633843,
-          44.6023694
+          -63.62151758063355,
+          44.61923261418973
         ]
       },
       "properties": {
@@ -4429,7 +4482,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -4444,6 +4498,7 @@
       "properties": {
         "location": "St. Margarets Bay Rd. at Northwest Arm Dr. Connecto",
         "district": "11",
+        "disabled": true,
         "push_present": 1,
         "existing_all": 0,
         "existing_side": 0,
@@ -4458,8 +4513,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5923256,
-          44.6508608
+          -63.671793334096144,
+          44.63786217298608
         ]
       },
       "properties": {
@@ -4471,7 +4526,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4479,8 +4535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.669516,
-          44.645894
+          -63.67788049389464,
+          44.65509293582758
         ]
       },
       "properties": {
@@ -4492,7 +4548,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4500,8 +4557,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.669516,
-          44.645894
+          -63.67723173459887,
+          44.653148422017956
         ]
       },
       "properties": {
@@ -4513,7 +4570,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4542,8 +4600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.675316,
-          44.649045
+          -63.67534863378711,
+          44.649411853219526
         ]
       },
       "properties": {
@@ -4555,7 +4613,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4626,8 +4685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6576226,
-          44.6620708
+          -63.663834681457246,
+          44.66133649984515
         ]
       },
       "properties": {
@@ -4639,7 +4698,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -4689,8 +4749,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.657239,
-          44.663103
+          -63.656508243256866,
+          44.662363356267264
         ]
       },
       "properties": {
@@ -4702,7 +4762,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 1
+        "gordon_suburb": 1,
+        "modified": "Location changed"
       }
     },
     {
@@ -4752,8 +4813,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6979247,
-          44.6376897
+          -63.689119358874166,
+          44.63797000639745
         ]
       },
       "properties": {
@@ -4765,7 +4826,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -4983,8 +5045,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5754632,
-          44.6695627
+          -63.67526974098404,
+          44.77239610349507
         ]
       },
       "properties": {
@@ -4996,7 +5058,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5088,8 +5151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.694085,
-          44.7726731
+          -63.6934155158631,
+          44.774325190303344
         ]
       },
       "properties": {
@@ -5101,7 +5164,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5109,8 +5173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.7322198,
-          44.7968695
+          -63.68348128160357,
+          44.767125238470555
         ]
       },
       "properties": {
@@ -5122,7 +5186,8 @@
         "new_all": 0,
         "new_side": 1,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5214,8 +5279,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.7331165,
-          44.7975455
+          -63.69128868523476,
+          44.771846284103844
         ]
       },
       "properties": {
@@ -5227,7 +5292,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5235,8 +5301,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6569181,
-          44.7354407
+          -63.65433551403237,
+          44.737950170028896
         ]
       },
       "properties": {
@@ -5248,7 +5314,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5256,8 +5323,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6569181,
-          44.7354407
+          -63.65493057634692,
+          44.73561593794449
         ]
       },
       "properties": {
@@ -5269,7 +5336,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5277,8 +5345,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.652294,
-          44.6797477
+          -63.67473204515923,
+          44.71822686204362
         ]
       },
       "properties": {
@@ -5290,7 +5358,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5466,8 +5535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6542232,
-          44.7335324
+          -63.65603647015538,
+          44.73304891217146
         ]
       },
       "properties": {
@@ -5479,7 +5548,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5529,8 +5599,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.6429606,
-          44.7509087
+          -63.64444541481828,
+          44.75087831346909
         ]
       },
       "properties": {
@@ -5542,7 +5612,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5571,8 +5642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5754655,
-          44.6491152
+          -63.63900546724863,
+          44.75060306391488
         ]
       },
       "properties": {
@@ -5584,7 +5655,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {
@@ -5697,8 +5769,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.7057026,
-          44.7092932
+          -63.70890383945683,
+          44.70824759685588
         ]
       },
       "properties": {
@@ -5710,7 +5782,8 @@
         "new_all": 0,
         "new_side": 0,
         "gordon_core": 0,
-        "gordon_suburb": 0
+        "gordon_suburb": 0,
+        "modified": "Location changed"
       }
     },
     {

@@ -45,6 +45,7 @@
       .then(response => response.json())
       .then(data => {
         const filteredFeatures = data.features.filter(feature =>
+          !feature.properties.disabled &&
           feature.properties.existing_all === 1 ||
           feature.properties.existing_side === 1 ||
           feature.properties.new_all === 1 ||
