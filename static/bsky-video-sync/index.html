@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bluesky Thread / Video Sync</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      max-width: 900px;
+    }
+    input, button {
+      padding: 8px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    /* Each post row is a flex container with two columns */
+    .row {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    .embed-container {
+      flex: 1;
+    }
+    .video-link {
+      margin-left: 20px;
+      white-space: nowrap;
+    }
+    .video-link a {
+      text-decoration: none;
+      background: #0066cc;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Configuration Section: Displayed if no "mode=view" parameter is present -->
+  <div id="configSection" class="section" style="display:none;">
+    <h1>Configure Video Sync</h1>
+    <div>
+      <label for="threadUrl">Bluesky Thread URL:</label>
+      <input type="text" id="threadUrl" placeholder="e.g. https://bsky.app/profile/username/post/postId" />
+    </div>
+    <div>
+      <label for="videoTemplate">
+        Video URL Template <small>(use <code>{time}</code> as placeholder)</small>:
+      </label>
+      <input type="text" id="videoTemplate" placeholder="e.g. https://video.example.com/watch?v=abc&t={time}" />
+    </div>
+    <div>
+      <label for="videoStartTime">
+        Video Start Time <small>(HH:MM:SS; e.g. 09:30:01)</small>:
+      </label>
+      <input type="text" id="videoStartTime" placeholder="e.g. 09:30:01" />
+    </div>
+    <button id="configureBtn">Configure Sync</button>
+    <div id="shareableUrlDiv" style="margin-top:20px;"></div>
+  </div>
+
+  <!-- View Section: Displayed if the URL contains mode=view -->
+  <div id="viewSection" class="section" style="display:none;">
+    <h1>Bluesky Thread / Video Sync</h1>
+    <div id="threadContainer">
+      <p>Loading thread…</p>
+    </div>
+  </div>
+
+  <!-- Include Bluesky's embed script so that blockquotes are rendered -->
+  <script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+  <script>
+    // ---------- Helper Functions ----------
+    // Parse a HH:MM:SS string into seconds.
+    function parseTimeToSeconds(timeStr) {
+      const parts = timeStr.split(':').map(Number);
+      if (parts.length !== 3 || parts.some(isNaN)) {
+        throw new Error('Invalid time format. Use HH:MM:SS');
+      }
+      return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    }
+
+    // Format a number of seconds into HH:MM:SS.
+    function formatSeconds(totalSeconds) {
+      const hours = Math.floor(totalSeconds / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+      return [hours, minutes, seconds]
+        .map(n => String(n).padStart(2, '0'))
+        .join(':');
+    }
+
+    // Convert a bsky web URL into an atproto URI.
+    function convertUrlToAtproto(urlStr) {
+      const urlObj = new URL(urlStr);
+      const parts = urlObj.pathname.split('/').filter(Boolean);
+      if (parts.length < 4 || parts[0] !== 'profile' || parts[2] !== 'post') {
+        throw new Error('Invalid thread URL format.');
+      }
+      const handle = parts[1];
+      const postId = parts[3];
+      return `at://${handle}/app.bsky.feed.post/${postId}`;
+    }
+
+    // Convert an atproto URI to a web URL.
+    function atprotoToWebUrl(atprotoUri) {
+      const match = atprotoUri.match(/^at:\/\/([^/]+)\/app\.bsky\.feed\.post\/(.+)$/);
+      if (match) {
+        return `https://bsky.app/profile/${match[1]}/post/${match[2]}`;
+      }
+      return atprotoUri;
+    }
+
+    // Fetch thread data from the API with a given depth.
+    async function fetchThread(uri, depth = 1000) {
+      const apiEndpoint = 'https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread';
+      const url = `${apiEndpoint}?uri=${encodeURIComponent(uri)}&depth=${depth}`;
+      const res = await fetch(url, { method: 'GET' });
+      if (!res.ok) {
+        throw new Error('Failed to fetch thread data: ' + res.statusText);
+      }
+      return await res.json();
+    }
+
+    // Given a thread node, extract the self‑reply chain (the branch of replies by the root author).
+    function getSelfReplyChain(thread, rootAuthor) {
+      if (!thread || !thread.replies || thread.replies.length === 0) return [];
+      const selfReply = thread.replies.find(r =>
+        r.post && r.post.author && r.post.author.handle === rootAuthor
+      );
+      if (!selfReply) return [];
+      return [selfReply].concat(getSelfReplyChain(selfReply, rootAuthor));
+    }
+
+    // Recursively fetch additional parts of the self‑reply chain if needed.
+    async function fetchSelfReplyChainRecursive(startUri, rootAuthor, recursionDepth = 0, maxRecursion = 10) {
+      if (recursionDepth >= maxRecursion) return [];
+      const data = await fetchThread(startUri);
+      if (!data.thread) return [];
+      let chain = getSelfReplyChain(data.thread, rootAuthor);
+      if (chain.length > 0) {
+        const lastNode = chain[chain.length - 1];
+        if ((!lastNode.replies || lastNode.replies.length === 0) &&
+            lastNode.post.replyCount > 0) {
+          const extraChain = await fetchSelfReplyChainRecursive(lastNode.post.uri, rootAuthor, recursionDepth + 1, maxRecursion);
+          chain = chain.concat(extraChain);
+        }
+      }
+      return chain;
+    }
+
+    // Create embed HTML using the provided blockquote embed format.
+    function createEmbedHtml(post) {
+      const postText = post.record.text || '[No text]';
+      const displayName = post.author.displayName || post.author.handle;
+      const webUrl = atprotoToWebUrl(post.uri) + '?ref_src=embed';
+      const createdAtStr = new Date(post.record.createdAt).toLocaleString();
+      return `<blockquote class="bluesky-embed" data-bluesky-uri="${post.uri}" data-bluesky-cid="${post.cid}">
+  <p lang="en">${postText}</p>
+  &mdash; ${displayName} (<a href="${webUrl}">${post.author.handle}</a>) <a href="${webUrl}">${createdAtStr}</a>
+</blockquote>`;
+    }
+
+    // ---------- Query String Parsing ----------
+    function getQueryParams() {
+      const params = {};
+      const queryString = window.location.search.slice(1);
+      queryString.split('&').forEach(pair => {
+        if (!pair) return;
+        const [key, value] = pair.split('=');
+        params[decodeURIComponent(key)] = decodeURIComponent(value || '');
+      });
+      return params;
+    }
+
+    // ---------- Configuration Mode ----------
+    async function configureSync() {
+      try {
+        const threadUrl = document.getElementById('threadUrl').value.trim();
+        const videoTemplate = document.getElementById('videoTemplate').value.trim();
+        const videoStartTimeStr = document.getElementById('videoStartTime').value.trim();
+        if (!threadUrl || !videoTemplate || !videoStartTimeStr) {
+          alert('Please fill in all fields.');
+          return;
+        }
+        const atprotoURI = convertUrlToAtproto(threadUrl);
+        const data = await fetchThread(atprotoURI, 1);
+        if (!data.thread || !data.thread.post) {
+          throw new Error('Could not retrieve root post.');
+        }
+        const rootPost = data.thread.post;
+        const createdAt = rootPost.record && rootPost.record.createdAt;
+        if (!createdAt) {
+          throw new Error('Root post creation time missing.');
+        }
+        const rootDate = new Date(createdAt);
+        // Compute the root post's seconds-of-day (UTC)
+        const rootSeconds = rootDate.getUTCHours() * 3600 +
+                            rootDate.getUTCMinutes() * 60 +
+                            rootDate.getUTCSeconds();
+        const videoStartSeconds = parseTimeToSeconds(videoStartTimeStr);
+        // Compute offset so that:
+        // videoTime for a post = (postSeconds - videoStartSeconds)
+        // For the root post, this equals: rootSeconds - videoStartSeconds.
+        const offset = rootSeconds - videoStartSeconds;
+        const params = new URLSearchParams();
+        params.set('mode', 'view');
+        params.set('thread', atprotoURI);
+        params.set('template', videoTemplate);
+        params.set('offset', offset);
+        const shareUrl = window.location.origin + window.location.pathname + '?' + params.toString();
+        document.getElementById('shareableUrlDiv').innerHTML = `<p>Shareable URL (copy and share this link):</p>
+          <input type="text" value="${shareUrl}" style="width:100%;" readonly />`;
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+    }
+
+    // ---------- View Mode ----------
+    async function viewSync() {
+      const params = getQueryParams();
+      const threadParam = params.thread;
+      const videoTemplate = params.template;
+      const offsetParam = params.offset;
+      if (!threadParam || !videoTemplate || offsetParam === undefined) {
+        document.getElementById('threadContainer').innerHTML = '<p>Missing parameters.</p>';
+        return;
+      }
+      const offset = parseInt(offsetParam, 10);
+      try {
+        const data = await fetchThread(threadParam, 1000);
+        if (!data.thread || !data.thread.post) {
+          throw new Error('Invalid thread data.');
+        }
+        const rootPost = data.thread.post;
+        const rootCreatedAt = rootPost.record && rootPost.record.createdAt;
+        if (!rootCreatedAt) throw new Error('Missing root post creation time.');
+        const rootDate = new Date(rootCreatedAt);
+        const rootSeconds = rootDate.getUTCHours() * 3600 +
+                            rootDate.getUTCMinutes() * 60 +
+                            rootDate.getUTCSeconds();
+        const container = document.getElementById('threadContainer');
+        container.innerHTML = '';
+
+        // Helper: Create a row for a given post.
+        // videoTime = (postSeconds - videoStartSeconds) = offset + (postSeconds - rootSeconds)
+        function createPostRow(post) {
+          const postDate = new Date(post.record.createdAt);
+          const postSeconds = postDate.getUTCHours() * 3600 +
+                              postDate.getUTCMinutes() * 60 +
+                              postDate.getUTCSeconds();
+          const videoTime = offset + (postSeconds - rootSeconds);
+          const row = document.createElement('div');
+          row.className = 'row';
+          const embedContainer = document.createElement('div');
+          embedContainer.className = 'embed-container';
+          embedContainer.innerHTML = createEmbedHtml(post);
+          // Call bluesky.scan on the embed container.
+          if (window.bluesky && typeof window.bluesky.scan === 'function') {
+            window.bluesky.scan(embedContainer);
+          }
+          row.appendChild(embedContainer);
+          // Only add the video link if videoTime is >= 0.
+          if (videoTime >= 0) {
+            const videoDiv = document.createElement('div');
+            videoDiv.className = 'video-link';
+            const link = document.createElement('a');
+            link.href = videoTemplate.replace('{time}', videoTime);
+            link.target = '_blank';
+            link.textContent = 'Watch Video at ' + formatSeconds(videoTime);
+            videoDiv.appendChild(link);
+            row.appendChild(videoDiv);
+          }
+          return row;
+        }
+
+        // Create and append a row for the root post.
+        container.appendChild(createPostRow(rootPost));
+
+        // Fetch and append the self‑reply chain.
+        const chain = await fetchSelfReplyChainRecursive(threadParam, rootPost.author.handle);
+        for (const reply of chain) {
+          if (!reply.post.record || !reply.post.record.createdAt) continue;
+          container.appendChild(createPostRow(reply.post));
+        }
+      } catch (err) {
+        document.getElementById('threadContainer').innerHTML = `<p style="color:red;">Error: ${err.message}</p>`;
+      }
+    }
+
+    // ---------- Initialization ----------
+    (function init() {
+      const params = getQueryParams();
+      if (params.mode && params.mode === 'view') {
+        document.getElementById('viewSection').style.display = 'block';
+        viewSync();
+      } else {
+        document.getElementById('configSection').style.display = 'block';
+        document.getElementById('configureBtn').addEventListener('click', configureSync);
+      }
+    })();
+  </script>
+</body>
+</html>
