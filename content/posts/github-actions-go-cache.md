@@ -1,7 +1,6 @@
 ---
 title: "Better GitHub Actions caching for Go"
-date: 2025-02-17T16:23:45-04:00
-draft: true
+date: 2025-02-18T12:23:45-04:00
 ---
 
 I've been spending some time on [CI](https://en.wikipedia.org/wiki/Continuous_integration) improvements at [work](https://www.grax.com/) recently, mostly around cutting down how long things take.
@@ -134,7 +133,7 @@ steps:
 The `Set Go cache date` step gives us a `GO_CACHE_DATE` environment variable with the current date.
 The `Save Go cache` step saves a cache item to a key based on OS, the hash of `go.mod`, and `GO_CACHE_DATE`.
 
-That means whenever a cache item is saved it'll end with the `GO_CACHE_DATE` value, such as `2025-02-17`.
+That means whenever a cache item is saved it'll end with the `GO_CACHE_DATE` value, such as `2025-02-18`.
 Because cache items are immutable, if a cache item already exists with the same `GO_CACHE_DATE`, saving will be skipped.
 
 If an existing cache was used for this run, before saving, the `Trim Go cache` step trims build output that was not created or used by the CI run that is completing.
@@ -187,7 +186,7 @@ The `restore-keys` prefix contains everything before the `GO_CACHE_DATE` value t
 
 This means all both the CI and artifacts workflows, on any branch, can load a cache item that was saved by a recent CI run on `main`.
 
-For example, if the last CI run on `main` saved `Linux-go-abcd-2025-02-17`, any subsequent CI or artifacts run will use that item.
+For example, if the last CI run on `main` saved `Linux-go-abcd-2025-02-18`, any subsequent CI or artifacts run will use that item.
 
 All this leaves us with a cache restore setup that:
 
